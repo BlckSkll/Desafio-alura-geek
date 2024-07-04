@@ -1,0 +1,205 @@
+@import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Press Start 2P", system-ui;
+}
+
+:root {
+    --cor-1: #5300C8;
+    --cor-2: #5D04D9;
+    --cor-3: #03318C;
+    --cor-4: #000000;
+    --cor-5: #FFFFFF;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+}
+
+main {
+    height: 100vh;
+}
+
+/* Header */
+.logo_header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 96px;
+    width: 100vw;
+    background-color: var(--cor-1);
+}
+
+.logo_img {
+    width: 374px;
+    height: 56px;
+}
+
+/* Sessoes */
+.sessoes {
+    display: flex;
+    margin-top: 20px;
+    gap: 15px;
+}
+
+.meus_produtos, .adicionar_produtos {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+}
+
+.meus_produtos {
+    justify-content: flex-start;
+}
+
+.adicionar_produtos {
+    justify-content: center;
+}
+
+/* Títulos */
+h1 {
+    display: flex;
+    justify-content: center;
+    font-size: 24px;
+    font-family: "Press Start 2P", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* Produtos */
+.products-container {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.card {
+    background-color: #9747ff;
+    color: #fff;
+    width: calc(100% / 4);
+    padding: 10px;
+    gap: 5px;
+    border-radius: 5px;
+    border: 3px solid #000000;
+    display: flex;
+    flex-direction: column;
+}
+
+.card-container--value {
+    display: flex;
+    justify-content: space-between;
+}
+
+.img-container {
+    display: flex;
+    justify-content: center;
+}
+
+.delete-button {
+    background-color: #9747ff;
+    /* background-image: url("https://cdn-icons-png.flaticon.com/512/4812/4812459.png"); */
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 1.3em;
+    padding-left: 1.3em;
+    border: none;
+}
+
+/* Texto */
+p {
+    font-size: 18px;
+    font-family: "IBM Plex Mono", monospace;
+    text-align: start;
+}
+
+/* Formulário */
+.formulario_container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    gap: 25px;
+}
+
+.input-form {
+    width: 392px;
+    height: 50px;
+    border-radius: 50px;
+    border: 2px solid var(--cor-3);
+    font-size: 20px;
+    color: var(--cor-3);
+}
+
+input::placeholder {
+    color: var(--cor-3);
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.button_add {
+    width: 186px;
+    height: 55px;
+    background-color: var(--cor-3);
+    border-radius: 20px;
+    color: var(--cor-5);
+    border: 2px solid var(--cor-3);
+    font-size: 20px;
+    font-family: "IBM Plex Mono", monospace;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.button_limpar {
+    width: 186px;
+    height: 55px;
+    border: 2px solid var(--cor-3);
+    border-radius: 20px;
+    color: var(--cor-3);
+    font-family: "IBM Plex Mono", monospace;
+    font-weight: bold;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+/* Footer */
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 190px;
+    background-color: var(--cor-1);
+    gap: 10px;
+}
+
+.footer_logo {
+    width: 374px;
+    height: 52px;
+}
+
+.footer_texto {
+    display: block;
+    margin-top: 5px;
+    font-family: "IBM Plex Mono", monospace;
+    font-weight: 200;
+    font-size: 24px;
+    color: var(--cor-5);
+}
+
+h2 {
+    font-size: 16px;
+    font-family: "IBM Plex Mono", monospace;
+    font-weight: 400;
+    font-style: normal;
+    align-items: center;
+    color: var(--cor-5);
+}
