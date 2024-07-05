@@ -1,0 +1,59 @@
+{
+    "products": [
+      {
+        "name": "Caneca The Child",
+        "price": "40",
+        "image": "assets/caneca-child.webp",
+        "id": "1"
+      },
+      {
+        "name": "Caneca Darth Vader",
+        "price": "55",
+        "image": "assets/caneca-darth.webp",
+        "id": "2"
+      },
+      {
+        "name": "Chaveiro Mario",
+        "price": "20",
+        "image": "assets/chaveiro-mario.webp",
+        "id": "3"
+      },
+      {
+        "name": "Action Figure Marceline",
+        "price": "150",
+        "image": "assets/marceline.jpg",
+        "id": "4"
+      },
+      {
+        "name": "Action Figure Jake",
+        "price": "150",
+        "image": "assets/jake.webp",
+        "id": "5"
+      },
+      {
+        "name": "Action Figure Mikasa Ackerman",
+        "price": "250",
+        "image": "assets/mikasa.jpg",
+        "id": "6"
+      },
+      {
+        "name": "Action Figure Miausculo",
+        "price": "150",
+        "image": "assets/miausculo.jpg",
+        "id": "7"
+      },
+      {
+        "name": "Porta Facas Deadpool",
+        "price": "150",
+        "image": "assets/deadpool.webp",
+        "id": "8"
+      },
+      {
+        "name": "Console Portatil de Jogos Retro",
+        "price": "350",
+        "image": "assets/jogo.jpg",
+        "id": "9"
+      }
+    ]
+  }
+  
